@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="NovaCart.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>NovaCart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="../css/index.css?v=1.2" rel="stylesheet" />
+    <link href="../css/pay.css" rel="stylesheet" />
+    
+    <link rel="icon" href="https://i.ibb.co/m0Z4Mh2/favicon-32x32.png" type="image/x-icon" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header Section -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-body-tertiary  ">
+    <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-align me-auto mb-2 mb-lg-0">
+                <li class="nav-item logo-item" id="sss">
+                    <a class="navbar-brand" href="index.aspx">
+                        <img src="https://i.ibb.co/MnctLpr/novaclogo.png" height="50" width="130" alt="NovaCart Logo" loading="lazy" />
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div class="d-flex align-items-center">
+               
+                
+                
+                <!-- Check if user is logged in -->
+                <% if (Session["Username"] != null) { %>
+                    <!-- Display Username -->
+                <div class="collapse navbar-collapse" id="navbarContent1">
+                <ul class="navbar-nav nav-align me-auto mb-2 mb-lg-0">
+    
+                    <li class="nav-item" id="hhh">
+                        <a class="nav-link active" href="index.aspx">Home</a>
+                    </li>
+                    <li class="nav-item" id="hhh">
+                        <a class="nav-link active" href="electronics.aspx">Electronics Products</a>
+                    </li>
+                    <li class="nav-item" id="hhh">
+                        <a class="nav-link active" href="books.aspx">Books & Magazines</a>
+                    </li>
+                    <li class="nav-item" id="hhh">
+                        <a class="nav-link active" href="homes.aspx">Homes & Kitchens</a>
+                    </li>
+                </ul>
+                   <span class="navbar-text-uppercase" id="user">
+                        <div class="user-circle">
+                            <%= Session["Username"].ToString()[0] %>
+                        </div>
+                            <%= Session["Username"].ToString() %>
+                        </span>
+                        <a href="Login.aspx" class="btn btn-link logout-button px-3 me-2" >Logout</a>
+                <% } else { %>
+                    
+                    <a href="Login.aspx" class="btn btn-link login-button px-3 me-2">Login</a>
+                <% } %>
+            </div>
+        </div> 
+        
+    </div>
+</nav>
+
+
+        <!-- Main Content Area -->
+        <asp:ContentPlaceHolder id="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- Footer Section -->
+        <footer class="text-center  text-lg-start bg-body-tertiary text-muted" id="ggg">
+            <section id="gopi">
+            <section class="d-flex justify-content-center p-4 border-bottom">
+                
+                <div>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-google"></i></a>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="me-4 text-reset"><i class="fab fa-github"></i></a>
+                </div>
+            </section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-shopping-cart me-3"></i>NovaCart</h6>
+                        <p>Fast, Simple , Smart</p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        
+                        <p><a href="#" class="text-reset">Electronics Products</a></p>
+                        <p><a href="#" class="text-reset">Books & Magazines</a></p>
+                        <p><a href="#" class="text-reset">Homes & Kitchens</a></p>
+                        
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        
+                        <p><a href="#" class="text-reset">Home</a></p>
+                        <p><a href="#" class="text-reset">About</a></p>
+                        <p><a href="#" class="text-reset">Contact</a></p>
+                        
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>Mylapore, Chennai</p>
+                        <p><i class="fas fa-envelope me-3"></i> novacart@gmail.com</p>
+                        <p><i class="fas fa-phone me-3"></i>+91 9000080000</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright: <a class="text-reset fw-bold" href="#">NovaCart</a>
+            </div>
+                </section>
+        </footer>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

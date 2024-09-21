@@ -1,0 +1,149 @@
+﻿body {
+    background-image: url('https://i.ibb.co/MRVZ67R/7788653.jpg');
+    overflow: hidden;
+    
+}
+
+.card-registration {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgb(229,254,255);
+    background: linear-gradient(90deg, rgba(229,254,255,1) 0%, rgba(251,251,251,1) 52%, rgba(240,246,239,1) 100%);
+}
+
+
+.card-registration .form-outline
+    {
+        position: relative;
+        margin-bottom: 0rem;
+        top: -26px;
+        left: 0px;
+        height: 60px;
+    }
+
+#reg {
+    margin-top: -50px;
+}
+
+.card-registration .form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.card-registration .form-label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: #6c757d;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+    font-size: 1rem;
+}
+
+.card-registration input:focus + .form-label,
+.card-registration input:not(:placeholder-shown) + .form-label,
+.card-registration input:valid + .form-label {
+    top: -10px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: #007bff;
+}
+
+.card-registration #TextBox8:focus + .form-label,
+.card-registration #TextBox8:not(:placeholder-shown) + .form-label {
+    color: #007bff;
+    top: -6px;
+    left: 15px;
+    font-size: 0.8rem; 
+}
+
+.card-registration .form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.card-registration input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+#Button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-height: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    
+}
+
+#login {
+    position: relative;
+    top: -40px; 
+    margin-bottom: 0;
+}
+
+#dd {
+    text-decoration: none;
+}
+
+#Button2 {
+    margin-top: -50px;
+}
+
+.custom-width {
+    width: 80%; 
+    max-width: 400px; 
+    margin-left:100px;
+}
+.card-registration #TextBox11:focus + .form-label,
+.card-registration #TextBox11:not(:placeholder-shown) + .form-label {
+    color: #007bff;
+    top: -6px;
+    left: 115px;
+    font-size: 0.8rem;
+}
+.card-registration #TextBox12:focus + .form-label,
+.card-registration #TextBox12:not(:placeholder-shown) + .form-label {
+    color: #007bff;
+    top: -6px;
+    left: 115px;
+    font-size: 0.8rem;
+    
+} 
+
+
+#ico {
+    position:relative;
+    left: 450px;
+    top:-41px;
+}
+
+

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Online Shopping\\NovaCart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|e:\\online shopping\\novacart\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|e:\\online shopping\\novacart\\js\\reg.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:js\\reg.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|e:\\online shopping\\novacart\\html\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|E:\\Online Shopping\\NovaCart\\html\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|E:\\Online Shopping\\NovaCart\\html\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|E:\\Online Shopping\\NovaCart\\html\\checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|E:\\Online Shopping\\NovaCart\\html\\invoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\invoice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|E:\\Online Shopping\\NovaCart\\html\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48CCBFC-7E63-4485-925B-4C0893FF6866}|NovaCart.csproj|solutionrelative:html\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.js",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\js\\login.js",
+              "RelativeDocumentMoniker": "js\\login.js",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\js\\login.js",
+              "RelativeToolTip": "js\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-20T11:56:01.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "reg.js",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\js\\reg.js",
+              "RelativeDocumentMoniker": "js\\reg.js",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\js\\reg.js",
+              "RelativeToolTip": "js\\reg.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-20T11:54:32.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "payment.aspx",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\payment.aspx",
+              "RelativeDocumentMoniker": "html\\payment.aspx",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\payment.aspx",
+              "RelativeToolTip": "html\\payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-14T18:25:54.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "payment.aspx.cs",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\payment.aspx.cs",
+              "RelativeDocumentMoniker": "html\\payment.aspx.cs",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\payment.aspx.cs",
+              "RelativeToolTip": "html\\payment.aspx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:26:59.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "checkout.aspx.cs",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\checkout.aspx.cs",
+              "RelativeDocumentMoniker": "html\\checkout.aspx.cs",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\checkout.aspx.cs",
+              "RelativeToolTip": "html\\checkout.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:10:11.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "checkout.aspx",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\checkout.aspx",
+              "RelativeDocumentMoniker": "html\\checkout.aspx",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\checkout.aspx",
+              "RelativeToolTip": "html\\checkout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-13T08:59:48.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "invoice.aspx",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\invoice.aspx",
+              "RelativeDocumentMoniker": "html\\invoice.aspx",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\invoice.aspx",
+              "RelativeToolTip": "html\\invoice.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-14T18:53:43.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "invoice.aspx.cs",
+              "DocumentMoniker": "E:\\Online Shopping\\NovaCart\\html\\invoice.aspx.cs",
+              "RelativeDocumentMoniker": "html\\invoice.aspx.cs",
+              "ToolTip": "E:\\Online Shopping\\NovaCart\\html\\invoice.aspx.cs",
+              "RelativeToolTip": "html\\invoice.aspx.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:46:28.544Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

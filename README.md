@@ -9,5 +9,15 @@
 - IDE: Visual Studio 2022
 
 ## Screenshots
-
+### Home Page 
 ![Home Page](screenshots/home%20page.png)
+### Products Page 
+![Home Page](screenshots/products.png)
+### Add to Cart Page 
+![Home Page](screenshots/add%20to%20cart.png)
+### Payment Page 
+![Home Page](screenshots/payment.png)
+### Invoice Page 
+![Home Page](screenshots/invoice.png)
+### Admin Page 
+![Home Page](screenshots/admin%20page.png)

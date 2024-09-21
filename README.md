@@ -10,4 +10,4 @@
 
 ## Screenshots
 
-![Home Page](screenshots/home page.png)
+![Home Page](screenshots/home%20page.png)
